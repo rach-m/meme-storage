@@ -1,0 +1,17 @@
+{
+  "name": "storme",
+  "displayName": "storme",
+  "expo": {
+    "name": "storme",
+    "slug": "storme",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
