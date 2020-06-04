@@ -46,11 +46,12 @@ export default SignIn
 
 const styles = StyleSheet.create({
   screen: {
-    ...Positioning.centered,
+    ...Positioning.centerScreen,
     ...Color.blackBackground
   },
   button: {
-    ...Buttons.mediumRounded
+    ...Buttons.mediumRounded,
+    ...Positioning.centerText,
   },
   buttonText: {
     ...Color.whiteText

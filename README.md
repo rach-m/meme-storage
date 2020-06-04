@@ -16,4 +16,3 @@ Meme Storage is a React Native application for both iOS and Android applications
 
 * Error 400: redirect_uri_mismatch
     * Solution: Had to reformat how Google was accepting Client Id with platform specific logic - solution found [here](https://github.com/expo/expo/issues/3540#issuecomment-466709365)
-

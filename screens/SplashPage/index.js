@@ -17,6 +17,6 @@ export default SplashPage
 const styles = StyleSheet.create({
   screen: {
     ...Positioning.centered,
-    ...Color.black
+    ...Color.blackBackground
   }
 })
