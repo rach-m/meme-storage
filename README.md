@@ -14,5 +14,6 @@ Meme Storage is a React Native application for both iOS and Android applications
     *  Solution: ran `expo upgrade` to make sure all package versions were compatible with latest version of expo - solution found [here](https://stackoverflow.com/questions/61967017/invariant-violation-requirenativecomponent-rncsafeareaprovider-was-not-found)
 
 
-
+* Error 400: redirect_uri_mismatch
+    * Solution: Had to reformat how Google was accepting Client Id with platform specific logic - solution found [here](https://github.com/expo/expo/issues/3540#issuecomment-466709365)
 
